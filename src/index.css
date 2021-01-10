@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "atten-new";
+  src: local("atten-new"), url(./fonts/AttenNewBold.otf) format("opentype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "atten-new";
+  src: local("atten-new"), url(./fonts/AttenNewRegular.otf) format("opentype");
+}
+
+body {
+  font-family: atten-new, Arial, serif;
+  overflow-x: hidden;
+  margin: 0;
+  background: rgb(250, 250, 255);
 }
