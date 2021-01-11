@@ -2,7 +2,7 @@ import { LOGIN_SUCCESS, USER_LOADED, LOGOUT } from "actions/types";
 
 const initialState = {
   isAuthenticated: false,
-  loading: true,
+  loading: false,
 };
 
 function authReducer(state = initialState, action) {
